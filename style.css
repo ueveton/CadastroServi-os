@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --headerback: #B57A44;
+    --footer:#d8aa80;
+    --nav: #B69A94;
+    --section: #b4b1b0;
+}
+
+header{
+    background: var(--headerback);
+    width: auto;
+    height: 5vh;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+nav{
+    background: var(--nav);
+    width: 20vw;
+    float: left;
+    height: 89vh;
+}
+
+section {
+    background: var(--section);
+    width: auto;
+    height: 89vh;
+}
+
+footer {
+    background: var(--footer);
+    width: auto;
+    height: 3vh;
+    padding-top: 3px;
+    text-align: center;
+    
+}
