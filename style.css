@@ -8,6 +8,7 @@
     --footer:#d8aa80;
     --nav: #B69A94;
     --section: #b4b1b0;
+    --border:#b4b1b0;
 }
 
 header{
@@ -34,7 +35,21 @@ nav{
 section {
     background: var(--section);
     width: auto;
+    padding-left: 20vw;
     height: 90vh;
+    border: 2px solid var(--border);
+}
+img{
+    width: 100%;
+    height: 89vh;
+    text-align: center;
+}
+
+div > div > h3{
+    color: aqua;
+}
+div > div > p{
+    color: aqua;
 }
 
 footer {
