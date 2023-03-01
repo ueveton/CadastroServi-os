@@ -2,12 +2,21 @@
     margin: 0;
     padding: 0;
 }
+/* paleta de cores
+
+.color1 { #f1ecdf };
+.color2 { #d4c9ad };
+.color3 { #c7ba99 };
+.color4 { #000000 };
+.color5 { #f58723 }; */
 
 :root{
-    --headerback: #B57A44;
-    --footer:#d8aa80;
-    --nav: #B69A94;
-    --section: #b4b1b0;
+    --headerback: #f58723;
+    --input: #f1ecdf;
+    --footer:#f58723;
+    --texto: #000000;
+    --nav: #c7ba99;
+    --section: #d4c9ad;
     --border:#b4b1b0;
     --border-camera: #352620;
     --font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -25,6 +34,7 @@ header{
 header h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 35px;
+    color: #000000;
 }
 
 nav{
@@ -32,6 +42,7 @@ nav{
     width: 20vw;
     float: left;
     height: 90vh;
+    border: 2px solid var(--border);
 }
 
 section {
@@ -63,23 +74,24 @@ img{
     display: flex;
     justify-content: space-between;
     border-radius: 40px 40px 0px 40px;
-    background: var(--headerback);
+    background: var(--input);
     flex-direction: row-reverse;
 }
 
 #search h4{
-    font-size: 15px;
+    font-size: 20px;
     font-family: var(--font-family);
 }
 
 #searchInput{
     border: none;
     outline: none;
-    background: var(--headerback);
+    background: var(--input);
     border-radius: 0px 40px 0px 0px;
     width: 400px;
     height: 30px;
     padding-left: 10px;
+    color: var(--texto);
 }
 
 .searchLabel {
@@ -103,25 +115,22 @@ img{
 }
 
 #filter h4{
-    font-size: 15px;
+    font-size: 20px;
 }
 
 #filter-selected {
+    border: none;
+    outline: none;
     border: 1px solid #B57A44;
     border-radius: 40px 40px 0px 40px;
     width: 100px;
     height: 30px;
     text-align: center;
     background: var(--headerback);
+    color: #1d0f01;
 }
 
-#filter-selected option {
-    text-align: center !important;
-    background: var(--border);
-}
-option:hover {
-    background: #1d0f01 !important;
-}
+
 
 div > div > h3{
     color: aqua;
@@ -142,4 +151,5 @@ footer {
 footer h4 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 10px;
+    color: #000000;
 }
