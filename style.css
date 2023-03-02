@@ -59,9 +59,9 @@ img{
 }
 
 #camera {
+    padding-top: 10px;
     padding-left: 2px;
     margin-left: 5px;
-    border: 2px solid var(--border-camera);
     font-family: var(--font-family);
     display: flex;
 }
@@ -101,8 +101,8 @@ img{
     align-items: center;
     justify-content: center;
     border-radius: 40px 40px 0px 40px !important;
-    background: #1d0f01 !important;
-    color: #b4b1b0 !important;
+    background: var(--headerback) !important;
+    color: var(--texto) !important;
     padding-bottom: 5px !important;
     text-transform: uppercase;
     font-family: var(--font-family);
@@ -130,7 +130,30 @@ img{
     color: #1d0f01;
 }
 
+.container {
+    padding-left: 55px;
+    font-family: var(--font-family);;
+}
+.container h4{
+    font-size: 20px;
+}
 
+#click {
+    border: none;
+    outline: none;
+    border: 1px solid #B57A44;
+    width: 50px;
+    height: 30px;
+    background: var(--headerback);
+    border-radius: 40px 40px 0px 40px;
+    color: var(--texto);
+    text-align: center;
+}
+.svg{
+    width: 30px;
+    height: 30px;
+    padding-bottom: 8px;
+}
 
 div > div > h3{
     color: aqua;
