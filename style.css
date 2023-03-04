@@ -162,6 +162,33 @@ div > div > p{
     color: aqua;
 }
 
+.action {
+    background-color: var(--headerback) !important;
+    border: 2px solid var(--border-camera)!important;
+    padding: 0.3rem 0.6rem;
+    display: inline;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+
+
+.action:hover {
+    background-color: var(--border-camera)!important;
+    color: var(--footer)!important;
+}
+
+.action:hover > svg {
+    color: #d60a0a !important;
+}
+
+.action svg {
+    color: var(--texto)!important;
+    font-weight: bold;
+    pointer-events: none;
+}
+
 footer {
     background: var(--footer);
     width: auto;
