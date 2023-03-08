@@ -47,22 +47,21 @@ nav{
 
 section {
     background: var(--section);
-    width: auto;
-    padding-left: 20vw;
     height: 90vh;
     border: 2px solid var(--border);
 }
-img{
+/* img{
     width: 100%;
     height: 89vh;
     text-align: center;
-}
+} */
 
 #camera {
     padding-top: 10px;
     padding-left: 2px;
     margin-left: 5px;
     font-family: var(--font-family);
+    width: 950px;
     display: flex;
 }
 
@@ -76,6 +75,7 @@ img{
     border-radius: 40px 40px 0px 40px;
     background: var(--input);
     flex-direction: row-reverse;
+    width: 50vw;
 }
 
 #search h4{
@@ -88,7 +88,7 @@ img{
     outline: none;
     background: var(--input);
     border-radius: 0px 40px 0px 0px;
-    width: 400px;
+    width: 80%;
     height: 30px;
     padding-left: 10px;
     color: var(--texto);
@@ -110,28 +110,29 @@ img{
 }
 
 #filter {
-    padding-left: 15px;
+    padding-left: 15px !important;
     font-family: var(--font-family);
+    
 }
 
 #filter h4{
     font-size: 20px;
 }
 
+
 #filter-selected {
     border: none;
     outline: none;
     border: 1px solid #B57A44;
     border-radius: 40px 40px 0px 40px;
-    width: 100px;
-    height: 30px;
+    width: 100px !important;
+    height: 30px !important;
     text-align: center;
     background: var(--headerback);
     color: #1d0f01;
 }
 
 .container {
-    padding-left: 55px;
     font-family: var(--font-family);;
 }
 .container h4{
